@@ -15,11 +15,9 @@ from keyboard import cell_promotion
 
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                          "Chrome/108.0.0.0 Safari/537.36"}
-data = {"email": "aleksandr.shinkarev.1001drib@gmail.com", "password": "Virok1234"}
+data = {"email": "Yore email", "password": "Your password"}
 cookie = cookies.SimpleCookie()
-cookie['_identity-site'] = 'aa1a0a62691fd124f575d01d803df8f138ce63bb54628b55caf9097426acbc52a%3A2%3A%7Bi%3A0%3Bs%3A14' \
-                           '%3A%22_identity-site%22%3Bi%3A1%3Bs%3A48%3A%22%5B288%2C' \
-                           '%22975mkg3UKMt2bWkRpUI5MQ3TDnrIgkAp%22%2C2592000%5D%22%3B%7D'
+cookie['_identity-site'] = 'Your cookies'
 
 
 async def get_info(message):
